@@ -1,3 +1,4 @@
+"use strict";
 var myString;
 var myNum;
 var myBool;
@@ -20,8 +21,8 @@ myVar = 5;
 strArray = ['hello', 'world'];
 numArray = [1, 2, 3];
 boolArray = [true, false, true];
-strNumTuple: ['hello', 4];
-var myVoid = null;
+strNumTuple = ['hello', 4];
+var myVoid;
 var myNull = null;
 var myUndefined = undefined;
 console.log(myBool);

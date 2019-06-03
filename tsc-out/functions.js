@@ -1,3 +1,4 @@
+"use strict";
 function getSum(numOne, numTwo) {
     return numOne + numTwo;
 }
@@ -11,11 +12,11 @@ var mySum = function (numOne, numTwo) {
     }
     return numOne + numTwo;
 };
-// The question mark after the parameter indicates that it is optional
+// The question mark after the parameter name indicates that it is optional
 function getName(firstName, lastName) {
     return firstName + ' ' + lastName;
 }
 console.log('John');
-function myVoid() {
+function aVoid() {
     return;
 }

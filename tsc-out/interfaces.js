@@ -1,3 +1,4 @@
+"use strict";
 /*
   function showTodo(todo: { title: string; text: string }) {
     console.log(todo.title + ': ' + todo.text);

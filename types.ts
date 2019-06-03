@@ -26,9 +26,9 @@ strArray = ['hello', 'world'];
 numArray = [1, 2, 3];
 boolArray = [true, false, true];
 
-strNumTuple: ['hello', 4];
+strNumTuple = ['hello', 4];
 
-let myVoid: void = null;
+let myVoid: void;
 let myNull: null = null;
 let myUndefined: undefined = undefined;
 

@@ -2,8 +2,8 @@ interface UserInterface {
   name: string;
   email: string;
   age: number;
-  register();
-  payInvoice();
+  register(): void;
+  payInvoice(): void;
 }
 
 class User implements UserInterface {

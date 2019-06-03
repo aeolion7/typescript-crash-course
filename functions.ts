@@ -21,6 +21,6 @@ function getName(firstName: string, lastName?: string): string {
 
 console.log('John');
 
-function myVoid(): void {
+function aVoid(): void {
   return;
 }
