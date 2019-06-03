@@ -1,7 +1,15 @@
-class User {
-  private name: string;
-  private email: string;
-  private age: number;
+interface UserInterface {
+  name: string;
+  email: string;
+  age: number;
+  register();
+  payInvoice();
+}
+
+class User implements UserInterface {
+  name: string;
+  email: string;
+  age: number;
 
   constructor(name: string, email: string, age: number) {
     this.name = name;
@@ -21,7 +29,7 @@ class User {
 }
 
 class Member extends User {
-  id: number;
+  private id: number;
 
   constructor(id: number, name: string, email: string, age: number) {
     super(name, email, age);
