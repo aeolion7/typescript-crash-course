@@ -46,4 +46,4 @@ or Scala.
 7. Null
 8. Tuple
 9. Enum
-10. Generics
+10. [Generics](https://www.typescriptlang.org/docs/handbook/generics.html)
